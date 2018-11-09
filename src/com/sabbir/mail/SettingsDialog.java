@@ -118,8 +118,8 @@ public class SettingsDialog extends JDialog {
 					textPort.getText(),
 					textUser.getText(),
 					textPass.getText());
-			JOptionPane.showMessageDialog(SettingsDialog.this, 
-					"Properties were saved successfully!");		
+//			JOptionPane.showMessageDialog(SettingsDialog.this,
+//					"Properties were saved successfully!");
 			dispose();
 		} catch (IOException ex) {
 			JOptionPane.showMessageDialog(this, 
