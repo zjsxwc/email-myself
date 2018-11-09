@@ -1,0 +1,7 @@
+.settings/*
+smtp.properties
+.classpath
+.project
+bin/*
+out/*
+!out/.gitkeep
